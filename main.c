@@ -33,3 +33,11 @@ int main()
 	//printf("%d 7asfyasn %s", 34234234234, "asdasdsdasdasd");
 }
 
+int main()
+{
+	printf("a");
+	write(1, "b", 1);
+	printf("c");
+	write(1, "d", 1);
+	printf("e");
+}
